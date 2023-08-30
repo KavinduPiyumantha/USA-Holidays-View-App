@@ -25,6 +25,13 @@ class HolidayAdapter(private val holidays: List<Holiday>) : RecyclerView.Adapter
         holder.nameTextView.text = holiday.getName()
         holder.typeTextView.text = holiday.getType()
     }
+//    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+//        val holiday = holidays[position]
+//        val formattedDate = "Date: ${holiday.getDate()}"
+//        holder.dateTextView.text = formattedDate
+//        holder.nameTextView.text = holiday.getName()
+//        holder.typeTextView.text = holiday.getType()
+//    }
 
     override fun getItemCount(): Int {
         return holidays.size
