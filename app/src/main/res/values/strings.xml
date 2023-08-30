@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Holiday</string>
+    <string name="holiday_details_title" />
 </resources>

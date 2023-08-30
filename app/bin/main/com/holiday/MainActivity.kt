@@ -33,14 +33,6 @@ class MainActivity : AppCompatActivity() {
 
         fetchHolidayData();
 
-//        holidays = listOf(
-//            Holiday("2021-07-04", "Independence Day", "National"),
-//            Holiday("2021-12-25", "Christmas Day", "National"),
-//            Holiday("2022-01-01", "New Year's Day", "National")
-//        )
-//
-//        adapter = HolidayAdapter(holidays)
-//        recyclerView.adapter = adapter
     }
 
     private fun fetchHolidayData() {
