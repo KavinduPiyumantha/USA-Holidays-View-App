@@ -18,6 +18,7 @@ inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View
         itemView.setOnClickListener(this)
     }
 
+    // show details when the one Holiday is clicked
     override fun onClick(view: View) {
         val holiday = holidays[adapterPosition]
         val intent = Intent(view.context, HolidayDetailsActivity::class.java)
